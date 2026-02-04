@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ゆる心理ラボ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>ゆる心理ラボ</h1>
+    <p class="subtitle">1分でできる、ちょっとだけ心理テスト</p>
+
+    <div class="card">
+      <h2 id="quiz-title"></h2>
+      <p class="question" id="quiz-question"></p>
+
+      <div class="choices" id="choices"></div>
+
+      <div id="result" class="result"></div>
+
+      <button class="next-btn" onclick="nextQuiz()">次の問題へ</button>
+    </div>
+
+    <p class="note">
+      ※この診断は心理傾向をもとにしたエンタメコンテンツです。
+    </p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
