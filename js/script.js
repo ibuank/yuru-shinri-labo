@@ -476,8 +476,7 @@ function shareResult(resultText) {
 
   const url = "https://ibuank.github.io/yuru-shinri-labo/";
   
-  const text = resultText + "｜ゆる心理ラボで診断してみた";
-
+  const text = `あなたの診断結果は「${resultText}」でした！\n#心理テスト #ゆる心理ラボ`;
   const shareUrl =
     "https://twitter.com/intent/tweet?text=" +
     encodeURIComponent(text) +
