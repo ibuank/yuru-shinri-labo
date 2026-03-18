@@ -469,3 +469,6 @@ function shareResult(resultText) {
 
   document.getElementById("share-x").href = shareUrl;
 }
+
+result.innerHTML = resultText;
+shareResult(resultText);
