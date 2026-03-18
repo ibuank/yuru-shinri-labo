@@ -454,3 +454,18 @@ function nextQuiz() {
 }
 
 window.onload = loadQuiz;
+
+function shareResult(resultText) {
+
+  const url = "https://ibuank.github.io/yuru-shinri-labo/";
+  
+  const text = resultText + "｜ゆる心理ラボで診断してみた";
+
+  const shareUrl =
+    "https://twitter.com/intent/tweet?text=" +
+    encodeURIComponent(text) +
+    "&url=" +
+    encodeURIComponent(url);
+
+  document.getElementById("share-x").href = shareUrl;
+}
