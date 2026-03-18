@@ -443,19 +443,7 @@ function showResult(index) {
 
   resultDiv.style.display = "block";
 }
-  // まだ旧形式の診断がある場合の保険
-  if (typeof data === "string") {
-    resultDiv.innerText = data;
-  } else {
-    resultDiv.innerHTML = `
-      <h3>【${data.type}】</h3>
-      <p><strong>■ 基本タイプ</strong><br>${data.base}</p>
-      <p><strong>■ 強み</strong><br>${data.strength}</p>
-      <p><strong>■ 気をつけたいこと</strong><br>${data.caution}</p>
-      <p><strong>■ ゆるアドバイス</strong><br>${data.advice}</p>
-    `;
-  }
-
+  
   resultDiv.style.display = "block";
 }
 
