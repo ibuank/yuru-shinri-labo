@@ -443,9 +443,6 @@ function showResult(index) {
 
   resultDiv.style.display = "block";
 }
-  
-  resultDiv.style.display = "block";
-}
 
 function nextQuiz() {
   let randomIndex;
